@@ -5,8 +5,6 @@ def normalize(name): #Транслітерація
     return name.translate(TRANS)
 
 
-
-
 def search_subdir(directory_path):#Створює список файлів в каталозі
     current_dir = Path(directory_path)
     for path in current_dir.glob('*'):
